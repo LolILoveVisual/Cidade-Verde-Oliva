@@ -5,7 +5,7 @@
 
 /datum/map/geminus_neue
 	name = "Geminus"
-	full_name = "Geminus City"
+	full_name = "Cidade Verde Oliva"
 	path = "geminus"
 
 	lobby_icon = 'icons/misc/title.dmi'
@@ -13,13 +13,13 @@
 
 	zlevel_datum_type = /datum/map_z_level/geminus_neue
 
-	station_name  = "Geminus City"
-	station_short = "Geminus"
-	dock_name     = "Geminus City Airbus"
-	boss_name     = "Central Polluxian Government"
-	boss_short    = "Pollux Gov"
-	company_name  = "Nanotrasen"
-	company_short = "NT"
+	station_name  = "Cidade Verde Oliva"
+	station_short = "Verde-Oliva"
+	dock_name     = "Cidade Verde Oliva Airbus"
+	boss_name     = "Governo Central de Verde-Oliva"
+	boss_short    = "Governo VerdeOliva"
+	company_name  = "Agência Espacial Brasileira"
+	company_short = "AEB"
 	starsys_name  = "Vetra"
 
 	shuttle_docked_message = "The scheduled air shuttle to the %dock_name% has arrived far east of the city. It will depart in approximately %ETD%."
@@ -56,7 +56,7 @@
 //							NETWORK_INTERROGATION
 							)
 
-	council_email = "city-council@geminus.nt"
+	council_email = "city-council@brasil.aeb"
 
 // For making the 6-in-1 holomap, we calculate some offsets
 #define GEMINUS_MAP_SIZE 332 // Width and height of compiled in Southern Cross z levels.
@@ -85,7 +85,7 @@
 
 /datum/map_z_level/geminus_neue/second
 	z = Z_LEVEL_SECOND_GEMINUS
-	name = "Geminus City"
+	name = "Cidade Verde Oliva"
 	flags = MAP_LEVEL_STATION|MAP_LEVEL_CONTACT|MAP_LEVEL_PLAYER|MAP_LEVEL_SEALED
 	transit_chance = 50
 	base_turf = /turf/simulated/floor/outdoors/dirt
@@ -118,9 +118,8 @@
 
 /datum/map/geminus_neue/get_map_info()
 	. = list()
-	. +=  "[full_name] is a very well-known metropolitan city in Blue Colony located on the planet Pollux.<br>"
-	. +=  "Pollux exists in the Vetra star system which is entirely monopolized by NanoTrasen acting as a quasi-corporate government."
-	. +=  "Being one of the first cities and initially a mining colony, Geminus has a rich history and is home to many descendants of the first prospectors.<br> "
-	. +=  "There's a definite class struggle, as working class Geminians feel pushed out by the richer colonists who wish to further gentrify the city and make it... <i>more profitable, more corporate, more <b>chic</b></i>."
+	. +=  "[full_name] É uma cidade-côlonia da super-potência chamada Federação do Brasil<br>"
+	. +=  "A Pollux existe no sistema estelar Vetra, que é totalmente monopolizado pela Agencia Espacial Brasileira(AEB), que atua como um governo quase corporativo."
+	. +=  "Criada em 1977 Inicialmente uma colônia de mineração, Verde-Oliva tem uma história rica e é o lar de muitos descendentes dos primeiros garimpeiros.<br> "
+	. +=  "Há uma luta de classes bem definida, pois os olivianos da classe trabalhadora se sentem expulsos pelos colonos mais ricos que desejam gentrificar ainda mais a cidade e torná-la... <i>mais lucrativo, mais corporativo, mais <b>chic</b></i>."
 	return jointext(., "<br>")
-
