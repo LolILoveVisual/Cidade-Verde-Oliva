@@ -6,5 +6,5 @@
 ######################################################################
 
 # not_a_user - Admin
-Cobrakanbr - Host
-ArgentinoGostoso - Admin
+cobrakanbr - Host
+argentinogostoso - Developer
