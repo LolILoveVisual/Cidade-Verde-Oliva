@@ -6,4 +6,5 @@
 ######################################################################
 
 # not_a_user - Admin
-cassyjenelle - Host
+Cobrakanbr - Host
+ArgentinoGostoso - Admin
