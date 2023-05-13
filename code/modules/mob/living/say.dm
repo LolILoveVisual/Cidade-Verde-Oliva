@@ -404,9 +404,13 @@ proc/get_radio_key_from_channel(var/channel)
 		log_whisper(message,src)
 	else
 		log_say(message, src)
+
+	flick_overlay(speech_bubble, speech_bubble_recipients, 50)
+	animate(speech_bubble, alpha = 255, time = 10, easing = CIRCULAR_EASING)
+	animate(time = 20)
+	animate(alpha = 0, pixel_y = 12, time = 20, easing = CIRCULAR_EASING)
+
 	return 1
-
-
 
 /mob/living/proc/say_signlang(var/message, var/verb="gestures", var/datum/language/language)
 	var/turf/T = get_turf(src)

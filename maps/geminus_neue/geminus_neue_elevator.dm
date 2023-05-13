@@ -91,3 +91,15 @@
 		/area/turbolift/police_ground,
 		/area/turbolift/police_top
 		)
+
+/obj/turbolift_map_holder/ap
+	name = "Elevador do apartamento"
+	depth = 2
+	lift_size_x = 4
+	lift_size_y = 4
+	icon = 'icons/obj/turbolift_preview_5x5.dmi'
+
+	areas_to_use = list(
+		/area/turbolift/ap_ground,
+		/area/turbolift/ap_top
+		)

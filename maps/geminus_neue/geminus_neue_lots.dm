@@ -217,3 +217,26 @@
 	name = "Farmlot 1"
 	id = "farmlot1"
 	desc = "A farmlot that is located next to the park, it has facilities provided for agricultural supply."
+
+//apartamentos
+/datum/lot/ap
+	price = 1000
+	desc = "Quarto de Apartamento bom e barato"
+	max_tenants = 1
+
+/datum/lot/ap/one
+	name = "AP Lot 1"
+	id = "aplot1"
+	desc = "Quarto de apartamento bom e barato"
+/datum/lot/ap/two
+	name = "AP Lot 2"
+	id = "aplot2"
+	desc = "Quarto de apartamento bom e barato"
+/datum/lot/ap/three
+	name = "AP Lot 3"
+	id = "aplot3"
+	desc = "Quarto de apartamento bom e barato"
+/datum/lot/ap/four
+	name = "AP Lot 4"
+	id = "aplot4"
+	desc = "Quarto de apartamento bom e barato"

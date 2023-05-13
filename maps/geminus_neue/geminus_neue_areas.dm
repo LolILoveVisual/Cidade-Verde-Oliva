@@ -500,3 +500,18 @@
 /area/abandoned_lab/bridge
 	name = "\improper NSS Abendrot - Bridge"
 	icon_state = "bridge"
+
+//apartamento fodase
+/area/turbolift/ap_ground
+	name = "lift (geminus city)"
+	lift_floor_label = "Floor 1"
+	lift_floor_name = "Apartamento Ground"
+	lift_announce_str = "Chegando no primeiro andar do apartamento, fiquem longe das portas"
+	base_turf = /turf/simulated/floor/tiled/steel_ridged
+
+/area/turbolift/ap_top
+	name = "eita (geminus city)"
+	lift_floor_label = "Floor 2"
+	lift_floor_name = "Apartamento Andar 2"
+	lift_announce_str = "Chegando no segundo andar do apartamento, fiquem longe das portas"
+	base_turf = /turf/simulated/floor/tiled/steel_ridged

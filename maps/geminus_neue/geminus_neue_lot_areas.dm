@@ -75,10 +75,6 @@
 	name = "Stall 6"
 	lot_id = "stall6"
 
-/area/lots/stall/seven
-	name = "Stall 7"
-	lot_id = "stall7"
-
 // Shopping mall lots
 
 /area/lots/shopping/shopping_lot_one
@@ -124,3 +120,20 @@
 /area/lots/farm/farm_lot_one
 	name = "Farm Lot 1"
 	lot_id = "farmlot1"
+
+//Apartamentos
+/area/lots/apartamento/ap_lot_one
+	name = "AP Lot 1"
+	lot_id = "aplot1"
+
+/area/lots/apartamento/ap_lot_two
+	name = "AP Lot 2"
+	lot_id = "aplot2"
+
+/area/lots/apartamento/ap_lot_three
+	name = "AP Lot 3"
+	lot_id = "aplot3"
+
+/area/lots/apartamento/ap_lot_four
+	name = "AP Lot 4"
+	lot_id = "aplot4"
