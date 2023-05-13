@@ -350,7 +350,7 @@ proc/get_radio_key_from_channel(var/channel)
 			listening_obj |= results["objs"]
 		above = above.shadow
 
-
+	var/list/unique = list()
 	var/list/speech_bubble_recipients = list()
 
 	//Main 'say' and 'whisper' message delivery
@@ -399,7 +399,7 @@ proc/get_radio_key_from_channel(var/channel)
 			qdel(I)
 
 	animate_speechbubble(speech_bubble, speech_bubble_recipients, 30)
-
+	INVOKE_ASYNC(src, /atom/movable/proc/animate_chat, message, speaking, italics, speech_bubble_recipients, whispering, unique)
 	if(whispering)
 		log_whisper(message,src)
 	else

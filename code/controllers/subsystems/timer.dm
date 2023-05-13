@@ -258,8 +258,6 @@ SUBSYSTEM_DEF(timer)
 	if (!length(alltimers))
 		return
 
-	sortTim(alltimers, .proc/cmp_timer)
-
 	var/datum/timedevent/head = alltimers[1]
 
 	if (head.timeToRun < head_offset)

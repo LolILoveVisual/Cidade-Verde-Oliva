@@ -5,7 +5,7 @@
 	program_icon_state = "generic"
 	size = 5
 	requires_ntnet = 1
-	available_on_ntnet = 0
+	available_on_ntnet = 1
 
 	nanomodule_path = /datum/nano_module/landlord_management
 
