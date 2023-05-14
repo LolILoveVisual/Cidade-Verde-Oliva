@@ -159,6 +159,10 @@
 	name = "\improper Arrival Bus"
 	icon_state = "yellow"
 
+/area/planets/Geminus/indoor/apartamento
+	name = "\improper Apartamento"
+	icon_state = "yellow"
+
 /area/planets/Geminus/indoor/disco
 	name = "\improper Disco"
 	icon_state = "red"

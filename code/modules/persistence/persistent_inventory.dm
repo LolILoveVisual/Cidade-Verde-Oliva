@@ -14,7 +14,7 @@
 	var/owner_name = ""
 	var/bank_id = ""
 	var/owner_uid = ""
-	var/charge = 1500	// this is a charge to start your own inventory. owners can change this
+	var/charge = 20	// this is a charge to start your own inventory. owners can change this
 
 	var/awaiting_payment = FALSE
 	var/staff_pin = 0
